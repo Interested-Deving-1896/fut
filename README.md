@@ -1,35 +1,75 @@
-[![Travis CI](https://app.travis-ci.com/fusionlanguage/fut.svg?branch=master)](https://app.travis-ci.com/fusionlanguage/fut)
-[![GitHub Actions](https://github.com/fusionlanguage/fut/actions/workflows/test.yml/badge.svg)](https://github.com/fusionlanguage/fut/actions/workflows/test.yml)
-[![codecov](https://codecov.io/gh/fusionlanguage/fut/branch/master/graph/badge.svg?token=M7UX4WJKI3)](https://codecov.io/gh/fusionlanguage/fut)
+[update-readmes]   Mode: rewrite — migrating to template structure...
+# fut
 
-Fusion Programming Language
-===========================
+[![Built with Ona](https://ona.com/build-with-ona.svg)](https://app.ona.com/#https://github.com/Interested-Deving-1896/fut)
 
-Fusion is a programming language designed for implementing reusable components
-(libraries) for C, C++, C#, D, Java, JavaScript, Python, Swift, TypeScript
-and OpenCL C, all from single codebase.
+<!-- AI:start:what-it-does -->
+_Description pending._
+<!-- AI:end:what-it-does -->
 
-A "Hello, world" library:
+## Architecture
 
-```csharp
-public class HelloFu
-{
-    public static string GetMessage()
-    {
-        return "Hello, world!";
-    }
-}
+<!-- AI:start:architecture -->
+_Architecture documentation pending._
+<!-- AI:end:architecture -->
+
+## Install
+
+<!-- Add installation instructions here. This section is yours — the AI will not modify it. -->
+
+```bash
+git clone https://github.com/Interested-Deving-1896/fut.git
+cd fut
 ```
 
-can be translated to all the listed languages with:
+## Usage
+
+<!-- Add usage examples here. This section is yours — the AI will not modify it. -->
+
+## Configuration
+
+<!-- Document configuration options here. This section is yours — the AI will not modify it. -->
+
+## CI
+
+<!-- AI:start:ci -->
+_CI documentation pending._
+<!-- AI:end:ci -->
+
+## Mirror chain
+
+<!-- AI:start:mirror-chain -->
+This repo is maintained in [`Interested-Deving-1896/fut`](https://github.com/Interested-Deving-1896/fut) and mirrored through:
+
 ```
-fut -o hello.c,cpp,cs,d,java,js,py,swift,ts,cl hello.fu
+Interested-Deving-1896/fut  ──►  OpenOS-Project-OSP/fut  ──►  OpenOS-Project-Ecosystem-OOC/fut
 ```
 
-The translated code is lightweight (no virtual machine, emulation nor
-dependencies), human-readable and fits well with the target language,
-including naming conventions and documentation comments.
+Changes flow downstream automatically via the hourly mirror chain in
+[`fork-sync-all`](https://github.com/Interested-Deving-1896/fork-sync-all).
+Direct commits to OSP or OOC are detected and opened as PRs back to `Interested-Deving-1896`.
+<!-- AI:end:mirror-chain -->
 
-Check out [Fusion Playground](https://fusion-lang.org/playground) in your browser.
+## Contributors
 
-For further instructions, see [Getting Started](doc/getting-started.md).
+<!-- AI:start:contributors -->
+_Contributors pending._
+<!-- AI:end:contributors -->
+
+## Origins
+
+<!-- AI:start:origins -->
+_Original project — no upstream fork._
+<!-- AI:end:origins -->
+
+## Resources
+
+<!-- AI:start:resources -->
+_No additional resource files found._
+<!-- AI:end:resources -->
+
+## License
+
+<!-- AI:start:license -->
+[GPL-3.0](https://github.com/Interested-Deving-1896/fut/blob/master/COPYING) © 2026 [Interested-Deving-1896](https://github.com/Interested-Deving-1896)
+<!-- AI:end:license -->
